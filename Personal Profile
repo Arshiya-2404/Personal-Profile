@@ -1,0 +1,40 @@
+<h1 align="center">Hi 👋, I'm Arshiya</h1>
+<h3 align="center">BCA Student | Aspiring Data Analyst</h3>
+
+<p align="center">
+💻 Learning Python, SQL, Power BI <br>
+📊 Interested in Data Analytics <br>
+🌱 Currently improving coding skills
+</p>
+
+---
+
+### 🛠 Skills
+<ul>
+<li>Python</li>
+<li>SQL</li>
+<li>Power BI</li>
+<li>HTML</li>
+<li>Excel</li>
+</ul>
+
+---
+
+### 📂 Projects
+
+#### 1. Student Management System (Python)
+
+```python
+students = {}
+
+def add_student(name, marks):
+    students[name] = marks
+
+def show_students():
+    for name, marks in students.items():
+        print(name, ":", marks)
+
+add_student("Rahul", 85)
+add_student("Anita", 90)
+
+show_students()
